@@ -14,6 +14,9 @@ function theme_scripts_styles() {
     wp_register_style( 'bootstrap-css', 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css' );
     wp_enqueue_style('bootstrap-css');
 
+    wp_register_style('font-awesome', 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+    wp_enqueue_style('font-awesome');
+
     wp_enqueue_style( 'default-stylesheet', get_stylesheet_directory_uri() . '/style.css',false,null,'ALL');
     wp_enqueue_style('default-stylesheet');
 

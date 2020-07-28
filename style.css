@@ -10,16 +10,6 @@
     This theme, like WordPress, is licensed under the GPL.
     Use it to make something cool, have fun, and share what you've learned with others.
 */
-
-
-.home {
-    width: 100%;
-    height: 100vh;
-    background-image: url(https://images.unsplash.com/photo-1498550744921-75f79806b8a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0f6908fa5e81286213c7211276e6b3d&auto=format&fit=crop&w=1500&q=80);
-    background-position: center top;
-    background-size:cover;
-}
-
 .navbar-white-scroll{
     /*transition: all 0.5s ease-in-out;*/
     -webkit-transition: all 0.5s ease;
@@ -31,10 +21,60 @@
     background-color: white;
     padding-top: 2px;
     padding-bottom: 2px;
+    border-bottom: 1px solid #cccccc;
 }
 .navbar{
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+
 }
+/* ---------------------------------------------------------- */
+.home {
+    width: 100%;
+    height: 50vh;
+    background-image: url(https://images.unsplash.com/photo-1498550744921-75f79806b8a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0f6908fa5e81286213c7211276e6b3d&auto=format&fit=crop&w=1500&q=80);
+    background-position: center top;
+    background-size:cover;
+
+
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+    padding-top:150px;
+    padding-bottom: 90px;
+    color:#fff;
+}
+/* ---------------------------------------------------------- */
+.marketing{
+    margin:40px 0;
+}
+.fa{
+    color:#0f57af;
+}
+
+.fa-3{
+    font-size: 4em !important;
+}
+.block{
+    border:#ccc solid 1px;
+    padding: 20px 20px 30px 20px;
+    text-align: center;
+}
+.block h3{
+    color: #0f57af;
+}
+/* ---------------------------------------------------------- */
+.content-region-1{
+    background:#0faf97;
+    color:#ffffff;
+    text-align: center;
+}
+.content-region-1 h1{
+    margin:0;
+    padding:0;
+    padding-bottom:15px;
+    font-size:40px;
+}
+.pb40{padding-bottom:40px;}
+.pt50{padding-top:50px;}
