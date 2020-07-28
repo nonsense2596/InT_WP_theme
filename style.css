@@ -78,3 +78,101 @@
 }
 .pb40{padding-bottom:40px;}
 .pt50{padding-top:50px;}
+/* ----------- animalo kepek -------------------------------- */
+/* kepek egymas mellett */
+.own-container {
+    display: flex;
+    max-height: 500px;
+    /*padding: 4% 2%;*/
+    box-sizing: border-box;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 550px;
+}
+
+.img-box {
+    flex: 1;
+    transition: .5s;
+    margin: 0 0.5%;
+    /*box-shadow: 0 20px 30px rgba(0,0,0,.1);*/
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    min-height: 390px;
+    min-width: 100px;
+}
+
+.img-title {
+    display: inline-block;
+    text-align: center;
+    transition: .5s;
+    color: white;
+    background-color: rgba(123,63,117, 0.6);
+    position: relative;
+    padding-left: 1vw;
+    width: 100%;
+}
+.img-box:hover {
+    flex: 1 1 50%;
+}
+.img-box:hover .img-title {
+    opacity: 0;
+}
+.img-box:hover .img-parag {
+    opacity: 1;
+}
+
+
+.img-parag{
+    color: white;
+    display: block;
+    transition: .2s;
+    max-height: 250px;
+    width: 370px;
+    min-width: 100px;
+    max-width: 370px;
+    background-color: rgba(34, 31, 31, 0.7);
+    border: 1px solid rgba(255,255,255, 0.3);
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    opacity: 0;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: auto;
+    font-size: 15px;
+}
+.img-touch{
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .img-touch{
+        max-width: 50px;
+        display: inline-block;
+    }
+    .img-box{
+        width: 100%;
+        height: 400px;
+        margin-bottom: 10px;
+    }
+    .own-container{
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        max-height: 1200px;
+        overflow: hidden;
+    }
+
+    .img-box{
+        height: 400px;
+    }
+    .img-parag{
+        max-width: 400px;
+    }
+}
