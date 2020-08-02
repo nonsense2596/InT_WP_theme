@@ -68,11 +68,11 @@
     </div>
 </section>
 
-<section class="row content-region-1 py-5">
-    <div class="container">
+<section class="container-fluid content-region-1 py-5">
+    <div class="row">
         <div class="col-md-12">
             <h1>Lorem ipsum dolor sit amet</h1>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien sem, laoreet eu tempus vitae, sollicitudin eu odio</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien sem, laoreet eu tempus vitae, sollicitudin eu odio</p>
         </div>
     </div>
 </section>
@@ -133,7 +133,23 @@
 </div>-->
 
 
-asdasd body bottom
+<footer class="clearfix footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                asd
+            </div>
+            <div class="col-md-4">
+                asd
+            </div>
+            <div class="col-md-4">
+                asd
+            </div>
+        </div>
+    </div>
+</footer>
+
+
 <?php wp_footer(); ?>
 </body>
 </html>
